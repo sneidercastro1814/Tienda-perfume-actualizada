@@ -1,0 +1,4 @@
+[build]
+  base = "rey-del-aroma ESTE ES/rey-del-aroma"
+  command = "npm run build"
+  publish = "rey-del-aroma ESTE ES/rey-del-aroma/dist"
