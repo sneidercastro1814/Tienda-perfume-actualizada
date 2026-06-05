@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Redirige todas las rutas al index.html (app de una sola página / React)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
